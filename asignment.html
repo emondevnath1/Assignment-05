@@ -13,7 +13,7 @@
 <header class="heading-tool w-full h-24 px-16 py-5">
     <div class="navbar ">
         <div class="navbar-start">
-            <button class="btn-start w-28 h-12 font-semibold text-xl rounded-lg">Blog</button>
+            <a href="home.html"><button class="btn-start w-28 h-12 bg-[#B4F461] font-semibold text-xl rounded-lg">Blog</button></a>
         </div>
         <div class="navbar-center w-64 h-12">
             <div class="flex flex-auto">
@@ -25,7 +25,7 @@
         </div>
         <div class="navbar-end">
             <div><img src="assets/coin.png" alt=""></div>
-            <div id="account-bal" class="font-medium text-xl pl-3">9400 BDT</div>
+            <div class="font-medium text-xl pl-3"><span id="account-bal">9400</span> BDT</div>
 
         </div>
 
@@ -36,7 +36,8 @@
 
     <div class="justify-center text-center">
         <button id="btn-1" class="w-40 h-14 bg-[#B4F461] rounded-lg font-semibold text-xl">Donation</button>
-        <button id="btn-2" class="w-40 h-14 border rounded-lg ml-4 font-medium text-xl text-[#111111B3]">History</button>
+        <button id="btn-2"
+            class="w-40 h-14 border rounded-lg ml-4 font-medium text-xl text-[#111111B3]">History</button>
     </div>
 
     <section id="donate-btn" class="justify-items-center items-center content-center pl-80">
@@ -45,9 +46,10 @@
                 <div class="flex flex-row">
                     <div class="max-w-lg max-h-96"><img src="assets/noakhali.png" alt=""></div>
                     <div class="max-w-lg max-h-96 ml-8">
-                        <div class="flex w-28 h-11 bg-[#1111110d] rounded-lg px-2 py-2">
+                        <div class="flex w-32 h-11 bg-[#1111110d] rounded-lg px-2 py-2">
                             <div><img src="assets/coin.png" alt=""></div>
-                            <div id="account-bal" class="font-normal text-base py-1 text-[#111111B3] pl-3">0 BDT</div>
+                            <div class="font-normal text-base py-1 text-[#111111B3] pl-3"><span id="new-bal">0</span>
+                                BDT</div>
                         </div>
                         <h2 class="font-bold text-xl mt-4">Donate for Flood at Noakhali, Bangladesh</h2>
                         <p class="font-light text-base text-[#111111B3] mt-4"> The recent floods in Noakhali have caused
@@ -58,10 +60,11 @@
                             a
                             positive
                             impact on the lives of those in need.</p>
-                        <input type="text" placeholder="Write Donation Amount"
+                        <input id="donate-bal" type="text" placeholder="Write Donation Amount"
                             class="w-full h-14 border pl-4 rounded-lg mt-6 ">
                         <br>
-                        <button class="w-full h-14 mt-4 bg-[#B4F461] rounded-lg font-semibold text-xl">Donate
+                        <button id="donating-bal"
+                            class="w-full h-14 mt-4 bg-[#B4F461] rounded-lg font-semibold text-xl">Donate
                             Now</button>
                     </div>
                 </div>
@@ -73,7 +76,8 @@
                     <div class="max-w-lg max-h-96 ml-8">
                         <div class="flex w-32 h-11 bg-[#1111110d] rounded-lg px-2 py-2">
                             <div><img src="assets/coin.png" alt=""></div>
-                            <div id="account-bal" class="font-normal text-base py-1 text-[#111111B3] pl-3">600 BDT</div>
+                            <div class="font-normal text-base py-1 text-[#111111B3] pl-3"><span
+                                    id="new-bal-2">600</span> BDT</div>
                         </div>
                         <h2 class="font-bold text-xl mt-4">Donate for Flood Relief in Feni,Bangladesh</h2>
                         <p class="font-light text-base text-[#111111B3] mt-4"> The recent floods in Feni have devastated
@@ -91,10 +95,11 @@
                             donating today
                             to assist those in urgent need.
                         </p>
-                        <input type="text" placeholder="Write Donation Amount"
+                        <input id="donate-bal-2" type="text" placeholder="Write Donation Amount"
                             class="w-full h-14 border pl-4 rounded-lg mt-6 ">
                         <br>
-                        <button class="w-full h-14 mt-4 bg-[#B4F461] rounded-lg font-semibold text-xl">Donate
+                        <button id="donating-bal-2"
+                            class="w-full h-14 mt-4 bg-[#B4F461] rounded-lg font-semibold text-xl">Donate
                             Now</button>
                     </div>
                 </div>
@@ -106,7 +111,8 @@
                     <div class="max-w-lg max-h-96 ml-8">
                         <div class="flex w-32 h-11 bg-[#1111110d] rounded-lg px-2 py-2">
                             <div><img src="assets/coin.png" alt=""></div>
-                            <div id="account-bal" class="font-normal text-base py-1 text-[#111111B3] pl-3">2400 BDT
+                            <div class="font-normal text-base py-1 text-[#111111B3] pl-3"><span
+                                    id="new-bal-3">2400</span> BDT
                             </div>
                         </div>
                         <h2 class="font-bold text-xl mt-4">Aid for Injured in the Quota Movement</h2>
@@ -122,10 +128,11 @@
                             in their recovery. Please consider making a <br> donation to support these brave individuals
                             in their
                             time of need.</p>
-                        <input type="text" placeholder="Write Donation Amount"
+                        <input id="donate-bal-3" type="text" placeholder="Write Donation Amount"
                             class="w-full h-14 border pl-4 rounded-lg mt-6 ">
                         <br>
-                        <button class="w-full h-14 mt-4 bg-[#B4F461] rounded-lg font-semibold text-xl">Donate
+                        <button id="donating-bal-3"
+                            class="w-full h-14 mt-4 bg-[#B4F461] rounded-lg font-semibold text-xl">Donate
                             Now</button>
                     </div>
                 </div>
@@ -156,6 +163,9 @@
 </main>
 
 <script src="js file/assign.js"></script>
+<script src="js file/calculate.js"></script>
+<script src="js file/calculate2.js"></script>
+<script src="js file/calculate3.js"></script>
 
 <body>
 
