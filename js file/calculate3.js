@@ -21,6 +21,7 @@ document.getElementById('donating-bal-3').addEventListener('click', function (ev
 
         document.getElementById('new-bal-3').innerText = totalBalance3;
         document.getElementById('account-bal').innerText = costBalance3;
+        document.getElementById('donate-bal-update3').innerText = donateBalanceNumber3;
     }
     else{
         alert('give here positive number')
